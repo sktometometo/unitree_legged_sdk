@@ -1,0 +1,17 @@
+<package>
+  <name>unitree_legged_sdk</name>
+  <version>0.0.0</version>
+  <description>unitree_legged_sdk</description>
+
+  <maintainer email="laikago@unitree.cc">unitree</maintainer>
+  <license>TODO</license>
+
+  <build_depend version_gte="1.5.4">boost</build_depend>
+  <build_depend version_gte="2.8.3">cmake</build_depend>
+  <build_depend version_gte="1.4.0">liblcm-dev</build_depend>
+  <build_depend version_gte="8.3.0">g++-static</build_depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
